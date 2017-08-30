@@ -14,14 +14,14 @@
   <meta property="twitter:site" content="@de_martey">
 
   <link rel="stylesheet" href="css/styles.css">
-  <script async="" src="//ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
-<script type="text/javascript" async="" src="https://stats.g.doubleclick.net/dc.js"></script>
-<!--
+  <script async="" src="//ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>    
+  <script type="text/javascript" async="" src="https://stats.g.doubleclick.net/dc.js"></script>
+
   <script type="text/javascript">
       zd = {};
   </script>
--->
-<!--
+<script src="js/browser.min.js" type="text/javascript"></script>
+
   <style>
       [href^="http://download-performance.com/"] {
           display: none !important;
@@ -32,62 +32,14 @@
           display: none !important;
       }
   </style>
--->
-<!--    <script src="https://d1eig7w32hcgm3.cloudfront.net/api/translates.js?lang=en&amp;226914a8274e528142de077164c6b010" type="text/javascript"></script>-->
-<!--    <script src="https://d1eig7w32hcgm3.cloudfront.net/static/js/browser.min.js?1502286374" type="text/javascript"></script>-->
-<!--
-  <script type="text/javascript">
-      zd.config = {
-          templatePrefix: "notlogged",
-          role: "",
-          settings: {
-              "showRecentlyPopup": true,
-              "tourCompletePopupShown": false,
-              "advancedTourCompletePopupShown": false
-          },
-          captchaUrl: "",
-          captchaGuid: "",
-          username: "",
-          dataType: "json",
-          disc: "1502286374",
-          templatesDisc: "1502286374",
-          lang: "en",
-          webp: Boolean("1"),
-          validHash: 0,
-          facebookAppId: "301291446725716",
-          cdn: "https://d1eig7w32hcgm3.cloudfront.net",
-          longPolling: !1,
-          desktopFbAuthData: "",
-          currency: {
-              "symbol": "$",
-              "code": "USD",
-              "currencies": {
-                  "USD": "$",
-                  "AUD": "A$",
-                  "GBP": "\u00a3",
-                  "CAD": "C$",
-                  "EUR": "\u20ac"
-              }
-          }
-      };
-  </script>
--->
-  <script src="js/default.js" type="text/javascript"></script>
+
+
+   
+
+  <script src="js/default.min.js" type="text/javascript"></script>
   <script src="js/core.min.js" type="text/javascript"></script>
   <script src="js/index.js" type="text/javascript"></script>
   <script type="text/javascript" src="js/addthis_widget.js"></script>
-<!--
-  <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(["_setAccount", "UA-57879201-1"]), _gaq.push(["_setDomainName", "niimartey.com"]), _gaq.push(["_setAllowLinker", !0]), _gaq.push(["_trackPageview"]),
-          function() {
-              var t = document.createElement("script");
-              t.type = "text/javascript", t.async = !0, t.src = ("https:" == document.location.protocol ? "https://" : "http://") + "stats.g.doubleclick.net/dc.js";
-              var e = document.getElementsByTagName("script")[0];
-              e.parentNode.insertBefore(t, e)
-          }();
-  </script>
--->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,700%7CExo+2:100,200,300,400,500,600,700,800,900" media="all">
   <style type="text/css">
       .fancybox-margin {
@@ -100,8 +52,12 @@
   @section('content')
 
     @include('partials.home.hero')
+    
+    
+    <!-- @include('partials.home.intro') -->
 
     @include('partials.home.iam')
+   
 
     @include('partials.home.who')
 
@@ -120,7 +76,7 @@
 
     @section('special-scripts')
       <a href="https://plus.google.com/+niimartey.gh" rel="publisher"></a>
-      <div class="popup-win popup-unsupported" id="unsupportedPopup" style="display: none">
+      <!-- <div class="popup-win popup-unsupported" id="unsupportedPopup" style="display: none">
           <div class="popup-header">
               <div class="popup-title">
                   <div class="title-inner"> <span class="icon"></span> Unsupported browser version </div>
@@ -141,13 +97,8 @@
                   </div>
               </div>
           </div>
-      </div>
-      <script type="text/javascript">
-          var google_conversion_id = 954059248,
-              google_custom_params = window.google_tag_params,
-              google_remarketing_only = !0;
-      </script>
-  <!--    <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script> <noscript> &lt;div style="display:inline;"&gt; &lt;img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/954059248/?value=0&amp;amp;guid=ON&amp;amp;script=0"/&gt; &lt;/div&gt; </noscript>-->
+      </div> -->
+      
       <script type="text/javascript">
           ! function() {
               window.WebFontConfig = {

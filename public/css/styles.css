@@ -2783,6 +2783,7 @@ only screen and (min-device-pixel-ratio:2) {
     left: -15px
 }
 
+
 @media only screen and (-webkit-min-device-pixel-ratio:2),
 only screen and (min--moz-device-pixel-ratio:2),
 only screen and (-o-min-device-pixel-ratio:2/1),
@@ -2806,6 +2807,95 @@ only screen and (min-device-pixel-ratio:2) {
     top: 84px;
     right: 88px
 }
+
+/* 
+** New Slide **
+*/
+
+
+.slide.slide9 {
+    height: 1364px;
+    width: 960px;
+    position: relative;
+    clear: both;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: -473px auto 0;
+    z-index: 8;
+    padding-top: 145px;
+    font-family: "Exo 2", Helvetica, Tahoma, sans-serif
+}
+
+.wf-loading .slide.slide9 {
+    font-family: Helvetica, Tahoma, sans-serif
+}
+
+.slide.slide9 .background1 {
+    position: absolute;
+    left: -120px;
+    top: 0;
+    width: 1200px;
+    z-index: 10;
+    height: 992px;
+    background-color: #fff;
+    background-position: left top;
+    background-repeat: no-repeat;
+    -webkit-background-size: 1200px 1364px;
+    -moz-background-size: 1200px 1364px;
+    background-size: 1200px 1364px
+}
+
+.slide.slide9 .background2 {
+    position: absolute;
+    z-index: 20;
+    left: -120px;
+    bottom: 0;
+    width: 1200px;
+    height: 376px
+}
+
+.slide.slide9 .protect-button {
+    display: block;
+    width: 980px;
+    height: 248px;
+    background-color: #1dbba9;
+    -webkit-border-radius: 124px 10px 0 124px;
+    border-radius: 124px 10px 0 124px;
+    margin-left: 110px;
+    position: relative;
+    z-index: 50;
+    color: #fff;
+    margin-top: 520px
+}
+
+.slide.slide9 .protect-button .text {
+    font-size: 80px;
+    display: block;
+    width: 468px;
+    font-weight: 100;
+    position: absolute;
+    top: 41px;
+    left: 242px;
+    line-height: 74px
+}
+
+.slide.slide9 .protect-button .text b {
+    font-weight: 300
+}
+
+.slide.slide9 .protect-button .icon {
+    background-position: 0 0;
+    -webkit-background-size: 334px 281px;
+    -moz-background-size: 334px 281px;
+    background-size: 334px 281px;
+    width: 267px;
+    height: 281px;
+    position: absolute;
+    top: -17px;
+    left: -15px
+}
+/* End Slide 9 */
 
 @media only screen and (-webkit-min-device-pixel-ratio:2),
 only screen and (min--moz-device-pixel-ratio:2),

@@ -21,7 +21,7 @@
                         <div class="options" draggable="false">
                             <ul draggable="false">
                                 <li><a class="link" href="/about">About</a></li>
-                                <li><a class="link" href="#">News</a></li>
+                                <li><a class="link" href="/blog/news/">News:<span class="name">TechMaterials</span></a></li>
                                 <li draggable="false"><a class="link" href="/blog" target="" draggable="false">Blog</a></li>
                                 <div class="clear"></div>
                             </ul>

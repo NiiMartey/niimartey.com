@@ -2,7 +2,7 @@
 
 @section('header')
 
-  <section  class = ' page-header overflow-hidden full-height overlay parallax-hero' id = 'home' style = 'background-image: url("http://volar.nikadevs.com/sites/volar.nikadevs.com/files/home-bg-20.jpg");'>
+  <section  class = ' page-header overflow-hidden full-height overlay parallax-hero' id = 'home' style = 'background-image: url("/files/home-bg-20.jpg");'>
      <div class = "vertical-align">
         <div class = "text-center">
            <h1  class = ' hs-text-2 font-second'>
@@ -21,17 +21,7 @@
 @section('content')
 
 
-                                 <div id="about-section" class="sticky-nav-here"></div>
 
-                                 <span id = "scroll"></span>
-                              </div>
-                           </div>
-                           <!-- /.block -->
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
             <div  class="nd-region">
                <div class = "container-fluid">
                   <div  id="Content" class="row">
@@ -261,14 +251,14 @@
                                                                   <ul id = "portfolio-container" class="portfolio-container real-gapped colored-mask masonry clearlist row portfolio-hover-effect row-1 row-first">
                                                                      <li class = "portfolio-item col-sm-6 col-xs-12 col-md-4 2-4 2-1 2-7 ">
                                                                         <div class="portfolio-item-img">
-                                                                           <img class="img-responsive img-responsive" src="http://volar.nikadevs.com/sites/volar.nikadevs.com/files/styles/portfolio_400xauto/public/work01.jpg?itok=gyCsyvir" width="400" height="260" alt="Alt" />
+                                                                           <img class="img-responsive img-responsive" src="/files/styles/portfolio_400xauto/public/work01.jpg?itok=gyCsyvir" width="400" height="260" alt="Alt" />
                                                                         </div>
                                                                         <div class="portfolio-item-info font-second">
                                                                            <h3 class="portfolio-item-title">Free Alan</h3>
                                                                            <div class="portfolio-item-detail">
                                                                               <p>Lorem ipsum dolor sit amet,</p>
                                                                               <!-- LightBox Button -->
-                                                                              <a href="http://volar.nikadevs.com/sites/volar.nikadevs.com/files/work01.jpg" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery2" data-lightbox-hidpi="http://volar.nikadevs.com/sites/volar.nikadevs.com/files/work01.jpg"></a>
+                                                                              <a href="/files/work01.jpg" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery2" data-lightbox-hidpi="/files/work01.jpg"></a>
                                                                               <!--/ End LightBox Button -->
                                                                               <a href="/portfolio/free-alan" class="animsition-link icon-attachment"></a>
                                                                            </div>
@@ -276,17 +266,17 @@
                                                                      </li>
                                                                      <li class = "portfolio-item col-sm-6 col-xs-12 col-md-4 video 2-8 2-4 2-1 2-7 2-6 ">
                                                                         <div class="video-work">
-                                                                           <div class="video-background" data-vide-bg="mp4: http://volar.nikadevs.com/sites/volar.nikadevs.com/files/work02, ogv: http://volar.nikadevs.com/sites/volar.nikadevs.com/files/work02, webm: http://volar.nikadevs.com/sites/volar.nikadevs.com/files/work02, poster: /sites/all/themes/volar/img/work02" data-vide-options="position: 50% 90%"></div>
+                                                                           <div class="video-background" data-vide-bg="mp4: /files/work02, ogv: /files/work02, webm: /files/work02, poster: img/work02" data-vide-options="position: 50% 90%"></div>
                                                                         </div>
                                                                         <div class="portfolio-item-img">
-                                                                           <img class="img-responsive" src="http://volar.nikadevs.com/sites/all/themes/volar/img/video-work-real-gapped.png" alt="Alt" />
+                                                                           <img class="img-responsive" src="http://volar.nikadevs.comimg/video-work-real-gapped.png" alt="Alt" />
                                                                         </div>
                                                                         <div class="portfolio-item-info font-second">
                                                                            <h3 class="portfolio-item-title">Superb Wice</h3>
                                                                            <div class="portfolio-item-detail">
                                                                               <p>Lorem ipsum dolor sit amet,</p>
                                                                               <!-- LightBox Button -->
-                                                                              <a href="http://volar.nikadevs.com/" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery2" data-lightbox-hidpi="http://volar.nikadevs.com/"></a>
+                                                                              <a href="#" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery2" data-lightbox-hidpi="http://volar.nikadevs.com/"></a>
                                                                               <!--/ End LightBox Button -->
                                                                               <a href="/portfolio/superb-wice" class="animsition-link icon-attachment"></a>
                                                                            </div>
@@ -294,14 +284,14 @@
                                                                      </li>
                                                                      <li class = "portfolio-item col-sm-6 col-xs-12 col-md-4 2-7 2-6 ">
                                                                         <div class="portfolio-item-img">
-                                                                           <img class="img-responsive img-responsive" src="http://volar.nikadevs.com/sites/volar.nikadevs.com/files/styles/portfolio_400xauto/public/work04.jpg?itok=K6navUNm" width="400" height="480" alt="Alt" />
+                                                                           <img class="img-responsive img-responsive" src="/files/styles/portfolio_400xauto/public/work04.jpg?itok=K6navUNm" width="400" height="480" alt="Alt" />
                                                                         </div>
                                                                         <div class="portfolio-item-info font-second">
                                                                            <h3 class="portfolio-item-title">Fresh Gump</h3>
                                                                            <div class="portfolio-item-detail">
                                                                               <p>Lorem ipsum dolor sit amet,</p>
                                                                               <!-- LightBox Button -->
-                                                                              <a href="http://volar.nikadevs.com/sites/volar.nikadevs.com/files/work04.jpg" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery2" data-lightbox-hidpi="http://volar.nikadevs.com/sites/volar.nikadevs.com/files/work04.jpg"></a>
+                                                                              <a href="/files/work04.jpg" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery2" data-lightbox-hidpi="/files/work04.jpg"></a>
                                                                               <!--/ End LightBox Button -->
                                                                               <a href="/portfolio/fresh-gump-0" class="animsition-link icon-attachment"></a>
                                                                            </div>
@@ -309,14 +299,14 @@
                                                                      </li>
                                                                      <li class = "portfolio-item col-sm-6 col-xs-12 col-md-4 2-8 2-1 ">
                                                                         <div class="portfolio-item-img">
-                                                                           <img class="img-responsive img-responsive" src="http://volar.nikadevs.com/sites/volar.nikadevs.com/files/styles/portfolio_400xauto/public/work05_lg.jpg?itok=LCDuDJca" width="400" height="533" alt="Alt" />
+                                                                           <img class="img-responsive img-responsive" src="/files/styles/portfolio_400xauto/public/work05_lg.jpg?itok=LCDuDJca" width="400" height="533" alt="Alt" />
                                                                         </div>
                                                                         <div class="portfolio-item-info font-second">
                                                                            <h3 class="portfolio-item-title">Fresh Gump</h3>
                                                                            <div class="portfolio-item-detail">
                                                                               <p>Lorem ipsum dolor sit amet,</p>
                                                                               <!-- LightBox Button -->
-                                                                              <a href="http://volar.nikadevs.com/sites/volar.nikadevs.com/files/work05_lg.jpg" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery2" data-lightbox-hidpi="http://volar.nikadevs.com/sites/volar.nikadevs.com/files/work05_lg.jpg"></a>
+                                                                              <a href="/files/work05_lg.jpg" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery2" data-lightbox-hidpi="/files/work05_lg.jpg"></a>
                                                                               <!--/ End LightBox Button -->
                                                                               <a href="/portfolio/fresh-gump" class="animsition-link icon-attachment"></a>
                                                                            </div>
@@ -324,14 +314,14 @@
                                                                      </li>
                                                                      <li class = "portfolio-item col-sm-6 col-xs-12 col-md-4 2-8 2-1 2-7 2-6 ">
                                                                         <div class="portfolio-item-img">
-                                                                           <img class="img-responsive img-responsive" src="http://volar.nikadevs.com/sites/volar.nikadevs.com/files/styles/portfolio_400xauto/public/work07_lg.jpg?itok=0UqdBidp" width="400" height="265" alt="Alt" />
+                                                                           <img class="img-responsive img-responsive" src="/files/styles/portfolio_400xauto/public/work07_lg.jpg?itok=0UqdBidp" width="400" height="265" alt="Alt" />
                                                                         </div>
                                                                         <div class="portfolio-item-info font-second">
                                                                            <h3 class="portfolio-item-title">Sweet Nicky</h3>
                                                                            <div class="portfolio-item-detail">
                                                                               <p>Lorem ipsum dolor sit amet,</p>
                                                                               <!-- LightBox Button -->
-                                                                              <a href="http://volar.nikadevs.com/sites/volar.nikadevs.com/files/work07_lg.jpg" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery2" data-lightbox-hidpi="http://volar.nikadevs.com/sites/volar.nikadevs.com/files/work07_lg.jpg"></a>
+                                                                              <a href="//file/work07_lg.jpg" class="icon-magnifying-glass lightbox" data-lightbox-gallery="gallery2" data-lightbox-hidpi="/files/work07_lg.jpg"></a>
                                                                               <!--/ End LightBox Button -->
                                                                               <a href="/portfolio/sweet-nicky-0" class="animsition-link icon-attachment"></a>
                                                                            </div>
@@ -374,7 +364,7 @@
                                                                   <div class="team-item">
                                                                      <!-- Team Item Image -->
                                                                      <div class="team-item-img">
-                                                                        <img class="img-responsive img-responsive" src="http://volar.nikadevs.com/sites/volar.nikadevs.com/files/styles/people_480x640/public/team_member_5.png?itok=5RhJ6U1l" width="480" height="640" alt="Alt" />
+                                                                        <img class="img-responsive img-responsive" src="/files/styles/people_480x640/public/team_member_5.png?itok=5RhJ6U1l" width="480" height="640" alt="Alt" />
                                                                      </div>
                                                                      <!--/ End Team Item Imagee -->
                                                                      <!-- Team Item Name -->
@@ -416,7 +406,7 @@
                                                                   <div class="team-item">
                                                                      <!-- Team Item Image -->
                                                                      <div class="team-item-img">
-                                                                        <img class="img-responsive img-responsive" src="http://volar.nikadevs.com/sites/volar.nikadevs.com/files/styles/people_480x640/public/team_member_4.png?itok=3Fhi2IBZ" width="480" height="640" alt="Alt" />
+                                                                        <img class="img-responsive img-responsive" src="/files/styles/people_480x640/public/team_member_4.png?itok=3Fhi2IBZ" width="480" height="640" alt="Alt" />
                                                                      </div>
                                                                      <!--/ End Team Item Imagee -->
                                                                      <!-- Team Item Name -->
@@ -458,7 +448,7 @@
                                                                   <div class="team-item">
                                                                      <!-- Team Item Image -->
                                                                      <div class="team-item-img">
-                                                                        <img class="img-responsive img-responsive" src="http://volar.nikadevs.com/sites/volar.nikadevs.com/files/styles/people_480x640/public/team_member_3.png?itok=uKzNOwly" width="480" height="640" alt="Alt" />
+                                                                        <img class="img-responsive img-responsive" src="/files/styles/people_480x640/public/team_member_3.png?itok=uKzNOwly" width="480" height="640" alt="Alt" />
                                                                      </div>
                                                                      <!--/ End Team Item Imagee -->
                                                                      <!-- Team Item Name -->
@@ -500,7 +490,7 @@
                                                                   <div class="team-item">
                                                                      <!-- Team Item Image -->
                                                                      <div class="team-item-img">
-                                                                        <img class="img-responsive img-responsive" src="http://volar.nikadevs.com/sites/volar.nikadevs.com/files/styles/people_480x640/public/team_member_2.png?itok=LS0jgF0c" width="480" height="640" alt="Alt" />
+                                                                        <img class="img-responsive img-responsive" src="/files/styles/people_480x640/public/team_member_2.png?itok=LS0jgF0c" width="480" height="640" alt="Alt" />
                                                                      </div>
                                                                      <!--/ End Team Item Imagee -->
                                                                      <!-- Team Item Name -->
@@ -543,7 +533,7 @@
                                                                   <div class="team-item">
                                                                      <!-- Team Item Image -->
                                                                      <div class="team-item-img">
-                                                                        <img class="img-responsive img-responsive" src="http://volar.nikadevs.com/sites/volar.nikadevs.com/files/styles/people_480x640/public/team_member_1.png?itok=FuVQlQGo" width="480" height="640" alt="Alt" />
+                                                                        <img class="img-responsive img-responsive" src="/files/styles/people_480x640/public/team_member_1.png?itok=FuVQlQGo" width="480" height="640" alt="Alt" />
                                                                      </div>
                                                                      <!--/ End Team Item Imagee -->
                                                                      <!-- Team Item Name -->
@@ -667,7 +657,7 @@
                                                       </div>
                                                    </div>
                                                 </div>
-                                                <section  class = ' page-header overflow-hidden overlay parallax-hero' style = 'padding-top: 120px; padding-bottom: 120px; margin-top: 120px; background-image: url("http://volar.nikadevs.com/sites/volar.nikadevs.com/files/home-bg-11.jpg");' id = 'home-section9322'>
+                                                <section  class = ' page-header overflow-hidden overlay parallax-hero' style = 'padding-top: 120px; padding-bottom: 120px; margin-top: 120px; background-image: url("/files/home-bg-11.jpg");' id = 'home-section9322'>
                                                    <div  class = ' section-title f-white'>
                                                       <div class="section-title-more">hear them out</div>
                                                       <div>
@@ -714,19 +704,19 @@
                                                    <div  class = ' container' style = 'padding-left: 75px; padding-right: 85px;'>
                                                       <div  class = ' owl-carousel' id = 'client-logos'>
                                                          <div  class = ' testimo-item'>
-                                                            <span  class = ' inline-block'><img class="img-responsive img-responsive" style="" src="http://volar.nikadevs.com/sites/volar.nikadevs.com/files/client-logo-1.png" alt="Alt" title="" /></span>
+                                                            <span  class = ' inline-block'><img class="img-responsive img-responsive" style="" src="/files/client-logo-1.png" alt="Alt" title="" /></span>
                                                          </div>
                                                          <div  class = ' testimo-item'>
-                                                            <span  class = ' inline-block'><img class="img-responsive img-responsive" style="" src="http://volar.nikadevs.com/sites/volar.nikadevs.com/files/client-logo-2.png" alt="Alt" title="" /></span>
+                                                            <span  class = ' inline-block'><img class="img-responsive img-responsive" style="" src="/files/client-logo-2.png" alt="Alt" title="" /></span>
                                                          </div>
                                                          <div  class = ' testimo-item'>
-                                                            <span  class = ' inline-block'><img class="img-responsive img-responsive" style="" src="http://volar.nikadevs.com/sites/volar.nikadevs.com/files/client-logo-3.png" alt="Alt" title="" /></span>
+                                                            <span  class = ' inline-block'><img class="img-responsive img-responsive" style="" src="/files/client-logo-3.png" alt="Alt" title="" /></span>
                                                          </div>
                                                          <div  class = ' testimo-item'>
-                                                            <span  class = ' inline-block'><img class="img-responsive img-responsive" style="" src="http://volar.nikadevs.com/sites/volar.nikadevs.com/files/client-logo-4.png" alt="Alt" title="" /></span>
+                                                            <span  class = ' inline-block'><img class="img-responsive img-responsive" style="" src="/files/client-logo-4.png" alt="Alt" title="" /></span>
                                                          </div>
                                                          <div  class = ' testimo-item'>
-                                                            <span  class = ' inline-block'><img class="img-responsive img-responsive" style="" src="http://volar.nikadevs.com/sites/volar.nikadevs.com/files/client-logo-5.png" alt="Alt" title="" /></span>
+                                                            <span  class = ' inline-block'><img class="img-responsive img-responsive" style="" src="/files/client-logo-5.png" alt="Alt" title="" /></span>
                                                          </div>
                                                       </div>
                                                    </div>
@@ -860,7 +850,7 @@
                                                                   <article class="blog-post-preview margin-bottom-xs-40">
                                                                      <a href="/blog/ruins-winterfell-1" class="blog-post-preview-link animsition-link" data-animsition-out="fade-out-up-sm" data-animsition-out-duration="500">
                                                                         <div class="blog-post-preview-img">
-                                                                           <img class="parallax-img img-responsive" src="http://volar.nikadevs.com/sites/volar.nikadevs.com/files/blog-post-img01.jpg" alt="" data-center="transform: translate3d(0px, -50%, 0px)" data-top-bottom="transform: translate3d(0px, -10%, 0px)" data-bottom-top="transform: translate3d(0px, -90%, 0px)">
+                                                                           <img class="parallax-img img-responsive" src="/files/blog-post-img01.jpg" alt="" data-center="transform: translate3d(0px, -50%, 0px)" data-top-bottom="transform: translate3d(0px, -10%, 0px)" data-bottom-top="transform: translate3d(0px, -90%, 0px)">
                                                                         </div>
                                                                         <div>
                                                                            <h2 class="blog-post-preview-title font-second">Ruins Of <span>Winterfell</span></h2>
@@ -876,7 +866,7 @@
                                                                   <article class="blog-post-preview margin-bottom-xs-40">
                                                                      <a href="/blog/kurdish-breakfast" class="blog-post-preview-link animsition-link" data-animsition-out="fade-out-up-sm" data-animsition-out-duration="500">
                                                                         <div class="blog-post-preview-img">
-                                                                           <img class="parallax-img img-responsive" src="http://volar.nikadevs.com/sites/volar.nikadevs.com/files/blog-post-img04.jpg" alt="" data-center="transform: translate3d(0px, -50%, 0px)" data-top-bottom="transform: translate3d(0px, -10%, 0px)" data-bottom-top="transform: translate3d(0px, -90%, 0px)">
+                                                                           <img class="parallax-img img-responsive" src="/files/blog-post-img04.jpg" alt="" data-center="transform: translate3d(0px, -50%, 0px)" data-top-bottom="transform: translate3d(0px, -10%, 0px)" data-bottom-top="transform: translate3d(0px, -90%, 0px)">
                                                                         </div>
                                                                         <div>
                                                                            <h2 class="blog-post-preview-title font-second">A Kurdish <span>Breakfast</span></h2>
@@ -996,7 +986,7 @@
                                                          data-address="412 Throop Ave, Brooklyn, NY 11221, USA"
                                                          data-zoom="14"
                                                          data-type="roadmap"
-                                                         data-marker = "/sites/all/themes/volar/img/google-map-assets/map-icon-location">
+                                                         data-marker = "img/google-map-assets/map-icon-location">
                                                       </div>
                                                       <div id="map-zoom-in"></div>
                                                       <div id="map-zoom-out"></div>

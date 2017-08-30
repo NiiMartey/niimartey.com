@@ -100,12 +100,25 @@
             @yield('content')
 
             @include('partials.footer')
+            <!--Start of Tawk.to Script-->
+              <script type="text/javascript">
+              var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+              (function(){
+              var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+              s1.async=true;
+              s1.src='https://embed.tawk.to/59a4a37b4fe3a1168eada26c/default';
+              s1.charset='UTF-8';
+              s1.setAttribute('crossorigin','*');
+              s0.parentNode.insertBefore(s1,s0);
+              })();
+              </script>
+              <!--End of Tawk.to Script-->
          </div>
 
 
          <script src="http://maps.googleapis.com/maps/api/js?key=" type="text/javascript"></script>
          <script type="text/javascript" src="css/modules/jquery_update/replace/jquery/2.1/jquery.min.js?v=2.1.4"></script>
-         <script type="text/javascript" src="misc/jquery.once.js?v=1.2"></script>
+         <script type="text/javascript" src="misc/jquery.once.js"></script>
          <script type="text/javascript" src="misc/drupal.js"></script>
          <script type="text/javascript" src="misc/form.js?v=7.56"></script>
          <script type="text/javascript" src="sites/all/modules/webform/js/webform.js"></script>

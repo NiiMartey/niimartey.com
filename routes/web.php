@@ -16,3 +16,5 @@ Route::get('/', 'PagesController@getIndex');
 Route::get('about', 'PagesController@getAbout');
 
 Route::get('blog', 'PagesController@getBlog');
+
+Route::get('blog/post', 'PagesController@getPost');

@@ -17,4 +17,8 @@ class PagesController extends Controller
     public function getBlog(){
       return view('blog.index');
     }
+
+    public function getPost(){
+      return view('blog.posts.post');
+    }
 }
